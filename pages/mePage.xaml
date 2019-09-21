@@ -1,0 +1,34 @@
+﻿<Page x:Class="DateTodayProject.pages.mePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DateTodayProject.pages"
+      mc:Ignorable="d" d:DesignWidth="800"
+      Title="mePage"
+       Height="760" MaxHeight="800" MinHeight="800" Width="900" MaxWidth="900" MinWidth="900">
+
+    <Grid Margin="10,10,10,100">
+
+
+
+        <Image x:Name="uesrPhotoImage" Margin="611.911,30,30,0" Height="226.08" VerticalAlignment="Top"/>
+
+        <Button Name="editButton" Content="修改资料" HorizontalAlignment="Left" Margin="755,600.72,0,0" VerticalAlignment="Top" Width="95" Click="EditButton_Click" Height="35" FontSize="22"/>
+        <Label x:Name="nameLable" Content="姓名" HorizontalAlignment="Left" Margin="40,29.55,0,0" VerticalAlignment="Top" FontSize="60"/>
+        <Label x:Name="genderLable" Content="性别" HorizontalAlignment="Left" Margin="40,115.75,0,0" VerticalAlignment="Top" FontSize="35"/>
+        <Label x:Name="ageLable" Content="年龄" HorizontalAlignment="Left" Margin="120,115.75,0,0" VerticalAlignment="Top" FontSize="35"/>
+        <Label x:Name="birthPlaceLable" Content="籍贯" HorizontalAlignment="Left" Margin="39,175.2,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label x:Name="livingPlaceLable" Content="现居地" HorizontalAlignment="Left" Margin="209,175,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label x:Name="occpLable" Content="职业" HorizontalAlignment="Left" Margin="39,218.14,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label x:Name="relationStaLable" Content="感情状态" HorizontalAlignment="Left" Margin="40,256.08,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label x:Name="heightLable" Content="身高" HorizontalAlignment="Left" Margin="40,294.02,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label x:Name="weightLable" Content="体重" HorizontalAlignment="Left" Margin="39,331.96,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label x:Name="salaryLable" Content="薪酬" HorizontalAlignment="Left" Margin="40,407.84,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label x:Name="phoneLable" Content="手机" HorizontalAlignment="Left" Margin="39,445.78,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label x:Name="selfIntroLable" Content="个人简介" HorizontalAlignment="Left" Margin="40,483.72,0,0" VerticalAlignment="Top" FontSize="20" Height="112" Width="810" ScrollViewer.CanContentScroll="True" />
+        <Label x:Name="birthLable" Content="生日" HorizontalAlignment="Left" Margin="40,369.9,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Button x:Name="editButton_Copy" Content="修改密码" HorizontalAlignment="Left" Margin="630,601,0,0" VerticalAlignment="Top" Width="95" Height="35" FontSize="22" Click="EditButton_Copy_Click"/>
+
+    </Grid>
+</Page>
